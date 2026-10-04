@@ -8,7 +8,7 @@
 
 This repository contains the SLE-3 architectural design for the graph search system continued from SLE-2. The system demonstrates Breadth-First Search (BFS) and Depth-First Search (DFS) on a simple graph and represents its architecture using all four levels of the C4 Model.
 
-The SLE-3 guideline asks students to continue from the SLE-2 search/maze/agent work and show the architecture at Context, Container, Component, and Code levels. fileciteturn0file0L29-L35
+The SLE-3 work continues the search/maze/agent system from earlier SLE work and focuses on the complete software architecture.
 
 ## 2. C4 Model Used
 
@@ -19,7 +19,7 @@ The SLE-3 guideline asks students to continue from the SLE-2 search/maze/agent w
 | Level 3 | Component | BFS/DFS control, Frontier, Visited Set, Goal Test, Path Reconstruction |
 | Level 4 | Code | `bfs_search()`, `dfs_search()`, graph data, timing functions and output functions |
 
-The guideline defines C4 as **Context, Container, Component, Code** and requires all four levels. fileciteturn0file0L16-L28
+The project covers Context, Container, Component and Code levels as required for the SLE-3 architecture submission.
 
 ## 3. Repository Files
 
@@ -44,6 +44,17 @@ The graph and BFS/DFS implementation are continued conceptually from the SLE-2 s
 
 AI was used as a support tool for organizing the C4 architecture, improving documentation structure, preparing Mermaid diagrams, and checking that the submission covers the required four C4 levels. The student remains responsible for reviewing, understanding and explaining the final architecture.
 
-## 7. Reference
+## 7. Submission Checklist
 
-The architecture follows the provided SLE-3 Student Guideline for **02AML204 – Introduction to Artificial Intelligence**, including the required Context, Container, Component and Code levels, design decisions, AI contribution note and conclusion. fileciteturn0file0L87-L129
+- [x] Context diagram
+- [x] Container diagram
+- [x] Component diagram for one main container
+- [x] Code-level overview
+- [x] Design decisions
+- [x] AI contribution note
+- [x] Contribution log
+- [x] README
+
+## 8. Conclusion
+
+The C4 model gives a clear way to describe the Graph Search System from the overall user interaction down to the main functions. The architecture is kept simple so that every level can be explained clearly during evaluation or viva.
